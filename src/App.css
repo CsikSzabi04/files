@@ -1,0 +1,10 @@
+.app{width: 70%; margin: 0px auto;}
+.lista{border: 1px solid black; border-radius: 5px; background-color: rgba(255, 255, 255, 0.50); padding: 10px; margin: 10px; }
+.lista p{padding: 10px;}
+.lista p:hover{background-color: lightgreen;}
+.lista p:hover::after{content: url(/torol.png); float: right; cursor: pointer;}
+.inp{background-color: white; border: 1px solid black; border-radius: 5px; padding: 10px; margin: 10px;}
+.inp #sel{margin-left: 5px; padding: 2px; margin-right: 10px;} 
+.inp .add{margin: 0px 10px 0px 10px;}
+.inp #map{margin-left: 15px;}
+.inp .db{margin-left: 10px;}
